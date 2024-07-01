@@ -1,1 +1,12 @@
 @import url(reset.css);
+
+:root {
+    --color-accent: #F4BF2A;
+    --color-primary: #AA2409;
+    --color-default: #33425B;
+}
+
+body {
+    background-image: url('/darkstone.png');
+    background-color: #24221E;
+}

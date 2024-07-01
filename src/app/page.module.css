@@ -1,0 +1,26 @@
+.main {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header {
+    color: var(--color-accent);
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+}
+
+.description {
+    color: var(--color-primary);
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.help {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
