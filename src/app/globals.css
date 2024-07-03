@@ -4,6 +4,10 @@
     --color-accent: #F4BF2A;
     --color-primary: #AA2409;
     --color-default: #33425B;
+    --color-btn: #630003;
+    --color-btn-300: #823335;
+    --color-btn-600: #450002;
+    --color-border: #272D25
 }
 
 body {
