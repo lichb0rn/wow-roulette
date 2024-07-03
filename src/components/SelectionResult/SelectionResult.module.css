@@ -1,0 +1,26 @@
+.article {
+    letter-spacing: 0.2rem;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    color: var(--color-primary);
+}
+
+.SelectionResult {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.classPicture {
+    width: 3rem;
+    height: 3rem;
+}
+
+.classTitle {
+    color: var(--color-accent);
+    font-size: 3rem;
+}

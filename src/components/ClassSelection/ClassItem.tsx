@@ -21,7 +21,7 @@ export const ClassItem = ({ playerClass, className, onClick }: ClassItemProps) =
   }, [onClick, playerClass]);
 
   return (
-    <div className={cx('ClassItem', { selected: isSelected })} onClick={handleClick}>
+    <div className={cx('ClassItem', className, { selected: isSelected })} onClick={handleClick}>
       <Image src={playerClass.picture} alt={playerClass.name} className={styles.img} />
       <div className={styles.description}>{playerClass.name}</div>
     </div>

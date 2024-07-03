@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { Picker } from '@/components/Picker';
+import { Picker } from '@/components/Picker/Picker';
 
 export default function Home() {
   return (
